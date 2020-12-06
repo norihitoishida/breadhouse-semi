@@ -139,6 +139,7 @@
 |セキュリティ|モデルの構造や重みを覗き見る (Model stealing)|
 |セキュリティ|モデルから学習データを復元 (Model inversion)|
 
+**TODO: セキュリティの論文紹介して詳細を書く**
 
 # 8 Discussion of potential solutions
 - MLモデルの本番運用をスケーラブルにしたい
