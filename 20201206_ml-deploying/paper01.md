@@ -60,7 +60,7 @@
 |モデル検証 (Model verification)|機能とパフォーマンスの確認|
 |デプロイ (Model deployment)|統合, 監視, 更新|
 
-![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_challenges-in-deploying-machine-learning_a-survey-of-case-studies/img/ml-life-cycle.png "ml-life-cycle")
+![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_ml-deploying/img/ml-life-cycle.png "ml-life-cycle")
 
 
 # 3 Data Management
