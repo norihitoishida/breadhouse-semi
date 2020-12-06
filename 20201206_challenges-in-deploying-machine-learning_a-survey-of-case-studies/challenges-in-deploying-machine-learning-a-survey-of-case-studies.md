@@ -55,7 +55,7 @@
 
 |フェーズ|説明|
 |---|---|
-|データ管理　(Data management)|収集, 前処理, データ拡張, 分析|
+|データ管理 (Data management)|収集, 前処理, データ拡張, 分析|
 |モデル学習 (Model learning|モデル選択, 学習, ハイパラ調整|
 |モデル検証 (Model verification)|機能とパフォーマンスの確認|
 |デプロイ (Model deployment)|インフラとの統合, モデルの監視と更新|
