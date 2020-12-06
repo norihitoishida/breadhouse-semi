@@ -52,6 +52,7 @@
 
 # 2 Machine Learning Deployment Workflow
 - [Ashmore+(2019)](https://arxiv.org/abs/1905.04223)の定義に準拠する。
+![ml-life-cycle]( "ml-life-cycle")
 
 # 3 Data Management
 
