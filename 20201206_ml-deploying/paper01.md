@@ -127,6 +127,15 @@
     - 説明責任のためのメカニズムを確立する
     - プロジェクトの初期段階から関わってもらう
 - 敵対的攻撃の例
+    - [Microsoft’s Tay (2016)](https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/in-2016-microsofts-racist-chatbot-revealed-the-dangers-of-online-conversation)
+        - Twitter上での会話を通じて学習するチャットボット
+        - 悪意有るユーザによって学習され、人種差別等の発言
+        - Microsoftは公開を停止しポリコレ版のZoをリリース
+        - 政治や宗教などのトピックについて、会話をしないように設計されている
+    - [DeepPeep (Jha+, 2020)](https://arxiv.org/abs/2007.15248)
+        - クラウド上で実行されているDNNモデルの構造等を解読
+        - 順伝播/逆伝播時間, GPU使用率, メモリ使用量を見る
+        - ネットワークトポロジ, ブロック, cuBLASカーネル等を推測
     - 
 
 |分類|起こりうる問題|
