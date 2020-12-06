@@ -122,6 +122,20 @@
 - MLモデルの本番運用をスケーラブルにしたい
 - つまり、その恩恵を受ける可能性のあるすべてのビジネスがアクセスできるようにしたい
 - そのためには、問題点を理解して、それらに対処するツール, サービス, ベストプラクティスを共有することが重要
+- ツールやサービスは便利だが、依存関係の管理などの保守コストが掛かるので注意
+- ストレージ, API, モデル監視機能等を持つ, MLプラットフォームのサービスの例
+    - [AWS SageMaker](https://aws.amazon.com/jp/sagemaker/)
+    - [Microsoft AzureML](https://azure.microsoft.com/ja-jp/free/machine-learning)
+    - [Uber Michelangelo](https://eng.uber.com/michelangelo-machine-learning-platform/)
+    - [TensorFlow TFX](https://www.tensorflow.org/tfx?hl=ja)
+- 弱教師あり学習のツールの例
+    - [Snorkel](https://www.snorkel.org/)
+    - [Snuba](https://github.com/getsentry/snuba)
+    - [cleanlab](https://github.com/cgnorthcutt/cleanlab)
+- 開発のベストプラクティスの例
+    - [GoogleのML開発ベストプラクティス](https://developers.google.com/machine-learning/guides/rules-of-ml)
+    - [TRL4ML](https://arxiv.org/abs/2006.12497): アジャイル開発やスクラム開発に変わるML専用の開発手法
+    - [DOA](https://tborchertblog.wordpress.com/2020/02/13/28/): データ指向アーキテクチャで、データの追跡や収集が楽なためMLモデルに向いている
 
 # 9 Further Work
 - このサーベイでやらなかった事
