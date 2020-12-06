@@ -102,8 +102,8 @@
 |分類|起こりうる問題|
 |---|---|
 |セキュリティ|Data poisoning (学習データへの攻撃)|
-|セキュリティ|Model stealing (MLモデルの構造や重みを除く)|
-|セキュリティ|Model inversion||
+|セキュリティ|Model stealing (モデルの構造や重みを除く)|
+|セキュリティ|Model inversion (モデルから学習データを復元)|
 
 
 # 8 Discussion of potential solutions
