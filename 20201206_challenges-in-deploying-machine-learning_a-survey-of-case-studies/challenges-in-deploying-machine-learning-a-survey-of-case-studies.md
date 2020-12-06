@@ -42,7 +42,7 @@
 - [10 Conclusion](#10-Conclusion)
 
 # 1 Introduction
-- MLモデルのデプロイに関する包括的なレポートが少ない！
+- MLモデルの本番投入に関する包括的なレポートが少ない！
 - 本論文の主なContributionは、フェーズごとの課題をまとめた事
 - 構成
     - MLモデルのデプロイのワークフロー(セクション2)
@@ -52,10 +52,14 @@
 
 # 2 Machine Learning Deployment Workflow
 - [Ashmore+(2019)](https://arxiv.org/abs/1905.04223)に準拠して、MLモデルのデプロイのワークフローを示す。
-    - Data management
-    - Model learning
-    - Model verification
-    - Model deployment
+
+|フェーズ|説明|
+|---|---|
+|Data management(データ管理)|収集, 前処理, データ拡張, 分析|
+|Model learning(モデル学習)|モデル選択, 学習, ハイパラ調整|
+|Model verification(モデル検証)|機能とパフォーマンスの確認|
+|Model deployment(デプロイ)|インフラとの結合, モデルの監視と更新|
+
 ![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_challenges-in-deploying-machine-learning_a-survey-of-case-studies/img/ml-life-cycle.png "ml-life-cycle")
 
 # 3 Data Management
