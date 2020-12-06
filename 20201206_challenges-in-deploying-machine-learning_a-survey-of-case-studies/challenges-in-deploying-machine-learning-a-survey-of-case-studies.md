@@ -98,12 +98,21 @@
 # 7 Cross-cutting aspects
 - 本セクションでは、フェーズを横断する課題を示す
 - 本セクションでは、倫理, 信頼, セキュリティ, に関する課題を示す
-
+- 参考
+    - Alan Turing InstituteのAI倫理に関するレポート([Leslie, D. (2019)](https://www.turing.ac.uk/sites/default/files/2019-06/understanding_artificial_intelligence_ethics_and_safety.pdf))
+    
 |分類|起こりうる問題|
 |---|---|
-|セキュリティ|Data poisoning (学習データへの攻撃)|
-|セキュリティ|Model stealing (モデルの構造や重みを除く)|
-|セキュリティ|Model inversion (モデルから学習データを復元)|
+|倫理|プライバシー侵害|
+|倫理|学習データに起因するバイアス (例: 性別, 人種)|
+|倫理|モデル出力の権利 (例: アート, DeepFake)|
+|倫理|モデル出力の恣意的な操作, 悪用 (例: Civil unrest)|
+|信頼||
+|信頼||
+|信頼||
+|セキュリティ|学習データへの攻撃 (Data poisoning)|
+|セキュリティ|モデルの構造や重みを覗き見る (Model stealing)|
+|セキュリティ|モデルから学習データを復元 (Model inversion)|
 
 
 # 8 Discussion of potential solutions
