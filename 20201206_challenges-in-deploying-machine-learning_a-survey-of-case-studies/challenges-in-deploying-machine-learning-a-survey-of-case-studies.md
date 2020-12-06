@@ -14,13 +14,13 @@
 
 
 # 目次
-- 1. Introduction
-- 2. Machine Learning Deployment Workflow
-- 3. Data Management
-- 4. Model Learning
-- 5. Model Verification
-- 6. Model Deployment
-- 7. Cross-cutting aspects
-- 8. Discussion of potential solutions
-- 9. Further Work
-- 10. Conclusion
+1. Introduction
+2. Machine Learning Deployment Workflow
+3. Data Management
+4. Model Learning
+5. Model Verification
+6. Model Deployment
+7. Cross-cutting aspects
+8. Discussion of potential solutions
+9. Further Work
+10. Conclusion
