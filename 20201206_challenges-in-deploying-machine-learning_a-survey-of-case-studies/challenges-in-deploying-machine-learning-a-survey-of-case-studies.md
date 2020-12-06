@@ -96,6 +96,14 @@
 - 本セクションでは、統合, 監視, 更新, の各ステップそれぞれに関する課題を示す
 
 # 7 Cross-cutting aspects
+- 本セクションでは、フェーズを横断する課題を示す
+- 本セクションでは、倫理, 信頼, セキュリティ, に関する課題を示す
+
+|分類|起こりうる問題|
+|---|---|
+|セキュリティ|Data poisoning (学習データへの攻撃)|
+|セキュリティ|Model stealing (MLモデルの構造や重みを除く)|
+|セキュリティ|Model inversion||
 
 
 # 8 Discussion of potential solutions
