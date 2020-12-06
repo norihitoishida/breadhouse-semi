@@ -11,8 +11,6 @@
 |備考|[The ML-Retrospectives, Surveys & Meta-Analyses Workshop, NeurIPS 2020](https://ml-retrospectives.github.io/neurips2020/)|
 
 
-
-
 # 目次
 - [1 Introduction](#1-Introduction)
 - [2 Machine Learning Deployment Workflow](#2-Machine-Learning-Deployment-Workflow)
@@ -43,16 +41,37 @@
 - [9 Further Work](#9-Further-Work)
 - [10 Conclusion](#10-Conclusion)
 
-
-
-
 # 1 Introduction
+
+
 # 2 Machine Learning Deployment Workflow
+
+
 # 3 Data Management
+
+
 # 4 Model Learning
+
+
 # 5 Model Verification
+
+
 # 6 Model Deployment
+
+
 # 7 Cross-cutting aspects
+
+
 # 8 Discussion of potential solutions
+
+
 # 9 Further Work
+- このサーベイでやらなかった事
+    - 非技術的な課題。
+    - 産業分野の比較分析。
+    - セクション8.1で簡単に紹介したツールの詳細な説明と比較。
+
 # 10 Conclusion
+- MLモデルを本番環境にデプロイする際に、データ管理、モデル学習、モデル検証、モデル展開の各フェーズで発生しうる課題を提示した。
+- 倫理やセキュリティの問題も示した。
+- MLの実務応用で得られた経験は共有されにくい傾向があるので、(可能なら)公開しよう！
