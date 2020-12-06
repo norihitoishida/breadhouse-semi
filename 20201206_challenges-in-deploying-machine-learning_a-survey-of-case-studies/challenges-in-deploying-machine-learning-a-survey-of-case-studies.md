@@ -62,6 +62,11 @@
 
 ![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_challenges-in-deploying-machine-learning_a-survey-of-case-studies/img/ml-life-cycle.png "ml-life-cycle")
 
+- 各フェーズの課題一覧
+
+- 〜ここになにか追加〜
+
+
 # 3 Data Management
 
 
