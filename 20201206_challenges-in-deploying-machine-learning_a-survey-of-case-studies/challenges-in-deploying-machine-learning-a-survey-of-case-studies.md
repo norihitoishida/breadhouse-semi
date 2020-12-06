@@ -14,13 +14,31 @@
 
 
 # 目次
-1. Introduction
-2. Machine Learning Deployment Workflow
-3. Data Management
-4. Model Learning
-5. Model Verification
-6. Model Deployment
-7. Cross-cutting aspects
-8. Discussion of potential solutions
-9. Further Work
-10. Conclusion
+- 1 Introduction
+- 2 Machine Learning Deployment Workflow
+- 3 Data Management
+    - 3.1 Data collection
+    - 3.2 Data preprocessing
+    - 3.3 Data augmentation
+    - 3.4 Data analysis
+- 4 Model Learning
+    - 4.1 Model selection
+    - 4.2 Training
+    - 4.3 Hyper-parameter selection
+- 5 Model Verification
+    - 5.1 Requirement encoding
+    - 5.2 Formal Verification
+    - 5.3 Test-based Verification
+- 6 Model Deployment
+    - 6.1 Integration
+    - 6.2 Monitoring
+    - 6.3 Updating
+- 7 Cross-cutting aspects
+    - 7.1 Ethics
+    - 7.2 End users’ trust
+    - 7.3 Security
+- 8 Discussion of potential solutions
+    - 8.1 Tools and services
+    - 8.2 Holistic approaches
+- 9 Further Work
+- 10 Conclusion
