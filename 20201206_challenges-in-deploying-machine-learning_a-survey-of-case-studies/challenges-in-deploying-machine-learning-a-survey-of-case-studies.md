@@ -43,11 +43,7 @@
 
 # 1 Introduction
 - MLモデルの本番環境での運用に関する包括的なレポートが少ない！
-- 
-- 
-- 
-- 
-- 
+- 本論文の主なContributionは、フェーズごとの課題をまとめた事
 - 構成
     - MLモデルの本番導入のワークフロー(セクション2)
     - ワークフローのフェーズ毎の課題(セクション3〜6)
@@ -55,7 +51,7 @@
     - それらの課題の潜在的な解決策(セクション8)
 
 # 2 Machine Learning Deployment Workflow
-
+- [Ashmore+(2019)](https://arxiv.org/abs/1905.04223)の定義に準拠する。
 
 # 3 Data Management
 
