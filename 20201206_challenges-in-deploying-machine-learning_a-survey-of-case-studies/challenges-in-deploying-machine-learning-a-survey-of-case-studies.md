@@ -55,10 +55,10 @@
 
 |フェーズ|説明|
 |---|---|
-|Data management(データ管理)|収集, 前処理, データ拡張, 分析|
-|Model learning(モデル学習)|モデル選択, 学習, ハイパラ調整|
-|Model verification(モデル検証)|機能とパフォーマンスの確認|
-|Model deployment(デプロイ)|インフラとの統合, モデルの監視と更新|
+|データ管理　(Data management)|収集, 前処理, データ拡張, 分析|
+|モデル学習 (Model learning|モデル選択, 学習, ハイパラ調整|
+|モデル検証 (Model verification)|機能とパフォーマンスの確認|
+|デプロイ (Model deployment)|インフラとの統合, モデルの監視と更新|
 
 ![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_challenges-in-deploying-machine-learning_a-survey-of-case-studies/img/ml-life-cycle.png "ml-life-cycle")
 
