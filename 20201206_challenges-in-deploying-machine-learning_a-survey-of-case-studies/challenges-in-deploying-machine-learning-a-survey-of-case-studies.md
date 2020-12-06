@@ -58,7 +58,7 @@
 |データ管理 (Data management)|収集, 前処理, 拡張, 分析|
 |モデル学習 (Model learning|モデル選択, 学習, ハイパラ調整|
 |モデル検証 (Model verification)|機能とパフォーマンスの確認|
-|デプロイ (Model deployment)|インフラとの統合, モデルの監視と更新|
+|デプロイ (Model deployment)|統合, 監視, 更新|
 
 ![ml-life-cycle](https://github.com/norihitoishida/breadhouse-semi/blob/main/20201206_challenges-in-deploying-machine-learning_a-survey-of-case-studies/img/ml-life-cycle.png "ml-life-cycle")
 
@@ -83,16 +83,17 @@
 
 
 # 4 Model Learning
-- 
-- 
-- 
+- 本セクションでは、モデル選択, 学習, ハイパラ調整, の各ステップそれぞれに関する課題を示す
 
 
 # 5 Model Verification
-
+- MLモデルは汎化性能を確認する必要がある
+- 本セクションでは、の各ステップそれぞれに関する課題を示す
 
 # 6 Model Deployment
-
+- 基本的にはDevOpsの原則が適用できるが、ML固有の課題も存在する
+- [Dang+(2019)](https://ieeexplore.ieee.org/abstract/document/8802836)ではその研究の方向性のロードマップを示し、AIOpsと名付けている
+- 本セクションでは、統合, 監視, 更新, の各ステップそれぞれに関する課題を示す
 
 # 7 Cross-cutting aspects
 
