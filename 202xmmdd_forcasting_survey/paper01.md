@@ -132,11 +132,45 @@
         - 3.4.6. Crude oil price forecasting
         - 3.4.7. Forecasting renewable energy technologies
         - 3.4.8. Wind power forecasting
-        - 
+        - 3.4.9. Wave forecasting
+        - 3.4.10. Power forecasting from PV systems
+        - 3.4.11. Forecasting with simulation in energy planning
+        - 3.4.12. Collaborative forecasting in the energy sector
     - 3.5 Environmental applications
+        - 3.5.1. Forecasting two aspects of climate change
+        - 3.5.2. Weather forecasting
+        - 3.5.3. Air quality forecasting
+        - 3.5.4. Forecasting and decision making for floods and water resources management
     - 3.6 Social good and demographic forecasting
+        - 3.6.1. Healthcare
+        - 3.6.2. Epidemics and pandemics
+        - 3.6.3. Forecasting dengue incidence
+        - 3.6.4. Forecasting mortality data
+        - 3.6.5. Annuity price forecasting
+        - 3.6.6. Forecasting risk for violence and wars
     - 3.7 Systems and humans
-    - 3.8 Other applications
+        - 3.7.1. Support systems
+        - 3.7.2. Cloud resource capacity forecasting
+        - 3.7.3. Including judgment in forecasting practice
+        - 3.7.4. Judgmental adjustments in forecasting practice
+        - 3.7.5. Supporting judgment in practice
+        - 3.7.6. Scoring expert forecasts for decision making
+        - 3.7.7. Trust in forecasts
+        - 3.7.8. Communicating forecast uncertainty
+    - 3.8 Other applications 
+        - 3.8.1. Tourism demand forecasting
+        - 3.8.2. Forecasting for airports
+        - 3.8.3. Traffic flow forecasting
+        - 3.8.4. Call arrival forecasting
+        - 3.8.5. Elections forecasting
+        - 3.8.6. Sports forecasting
+        - 3.8.7. Forecasting for megaprojects
+        - 3.8.8. Competing products
+        - 3.8.9. Safety and security
+        - 3.8.10. The forecastability of agricultural time series
+        - 3.8.11. Forecasting espresso coffee quality
+        - 3.8.12. Dealing with logistic forecasts in practice
+        - 3.8.13. Forecasting competition        
     - 3.9 The future of forecasting practice
 - [4 Forecasting: benefits, practices, value, and limitations](#4-Forecasting:-benefits,-practices,-value,-and-limitations)
 
