@@ -124,6 +124,14 @@
         - 3.3.14. Forecasting stock returns
         - 3.3.15. Forecasting crashes in stock markets
     - 3.4 Energy
+        - 3.4.1. Building energy consumption forecasting
+        - 3.4.2. Forecasting for building energy optimisation
+        - 3.4.3. Electricity price forecasting
+        - 3.4.4. Hybrid machine learning system for short-term load forecasting
+        - 3.4.5. Predicting spikes in energy markets
+        - 3.4.6. Crude oil price forecasting
+        - 3.4.7. Forecasting renewable energy technologies
+        - 3.4.8. Wind power forecasting
         - 
     - 3.5 Environmental applications
     - 3.6 Social good and demographic forecasting
