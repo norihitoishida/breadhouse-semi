@@ -1,4 +1,4 @@
-[パンハウスゼミ](https://twitter.com/breadhouse_semi)の資料置き場
+[パンハウスゼミ](https://twitter.com/breadhouse_semi)の資料置き場(石田発表分)
 
 ### 発表済み
 |Date & Title|Abstract|
