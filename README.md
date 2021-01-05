@@ -24,3 +24,4 @@
 |2021mmdd_efficient-transformer-survey|軽量Transformerサーベイ|
 |2021mmdd_visual-transformer-survey|ViTサーベイ|
 |2021mmdd_vision-few-shot-meta-learning-survey|computer visionのfew-shot meta-learningサーベイ(Learning from Few Samples: A Survey (Bendre+, 2020))|
+|2021mmdd_meta-learning-survey|Meta-Learning in Neural Networks: A Survey (Hospedales+, 2020)|
