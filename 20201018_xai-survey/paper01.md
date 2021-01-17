@@ -22,8 +22,8 @@
 - [8 Conclusion](#8-Conclusion)
 
 # 1 Introduction
-- DNNをはじめとするBlack-Box Modelは説明可能性 (Explainability) が低い
-- Explainabilityが低いモデルには以下のような問題が発生しうる
+- DNNをはじめとするBlack-Box Modelは説明可能性 (Explainability) が低い！
+- Explainabilityが低いモデルには以下のような問題が発生しうる。
 
 |問題の種類|どの様な問題が起こるか|
 |---|---|
@@ -33,7 +33,7 @@
 |法的リスク|- 商用アカウントをスパム判定で誤BANした際の逸失利益の扱い<br>- PL法違反|
 
 - だからXAI(Explainable AI = 説明可能AI)の研究は大事！
-- 本論文ではXAIの様々なアプローチを説明し、3つの分類方法を示します
+- 本論文ではXAIの様々なアプローチを説明し、3つの分類方法を示します。
 
 
 # 2 Taxonomies and Organization
