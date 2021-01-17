@@ -10,6 +10,7 @@
 |概要|XAI(Explainable AI)サーベイ。|
 |備考|[参考 : XAI技術の効能をユーザ実験で評価する研究(Hara, 2020)](https://www.slideshare.net/SatoshiHara3/xai-238616601)|
 
+***
 
 # 目次
 - [1 Introduction](#1-Introduction)
