@@ -38,7 +38,7 @@
 # 2 Taxonomies and Organization
 - 本論文では以下の3つの観点から手法を分類します。
 
-|観点|解説|
+|観点|区分|
 |---|---|
 |Scope (範囲)|Local : データインスタンスごとに説明マップを生成する。<br>Global : モデル全体に対して説明マップを生成する。|
 |Methodology (方法論)|BackProb : 勾配を用いる。<br>Perturbation : 摂動を用いる。|
