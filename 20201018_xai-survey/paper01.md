@@ -58,20 +58,15 @@
 
 |用語|定義|
 |---|---|
-|Interpretability ()||
-|Interpretation ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-| ()||
-
+|Interpretability (解釈可能性)||
+|Interpretation (解釈)|モデルの出力を人間が理解できるように簡略化した表現。|
+|Explanation (説明)|入力のfeatureの、出力に与える重要性や出力との関連を表すメタ情報。|
+|White-box||
+|Black-box||
+|Transparent ()||
+|Trustability ()||
+|Bias ()||
+|Fairness ()||
 
 
 # 4 Scope of Explanation
