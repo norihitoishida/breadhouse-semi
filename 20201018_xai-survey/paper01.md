@@ -45,12 +45,12 @@
 |Usage (使用方法)|Intrinsic : モデルに依存する。<br>Post-Hoc : モデルに依存しない。学習済みモデルに適用可能。|
 
 - 本論文の構成は以下の通りです。
-- [セクション3](#3-Definitions-and-Preliminaries) : 用語の定義等の説明。
-- [セクション4](#4-Scope-of-Explanation) : Scopeによる分類の説明。
-- [セクション5](#5-Differences-in-the-Methodology) : Methodologyによる分類の説明。
-- [セクション6](#6-Model-Usage-or-Implementation-Level) : Usageによる分類の説明。
-- [セクション7](#7-Evaluation-Methodologies,-Issues,-and-Future-Directions) : XAIの評価方法の紹介。
-- [セクション8](#8-Conclusion) : まとめと結論。
+    - [セクション3](#3-Definitions-and-Preliminaries) : 用語の定義等の説明。
+    - [セクション4](#4-Scope-of-Explanation) : Scopeによる分類の説明。
+    - [セクション5](#5-Differences-in-the-Methodology) : Methodologyによる分類の説明。
+    - [セクション6](#6-Model-Usage-or-Implementation-Level) : Usageによる分類の説明。
+    - [セクション7](#7-Evaluation-Methodologies,-Issues,-and-Future-Directions) : XAIの評価方法の紹介。
+    - [セクション8](#8-Conclusion) : まとめと結論。
 
 # 3 Definitions and Preliminaries
 - Explainability(説明可能性)・Interpretability(解釈可能性)等、用語の定義が文献によって微妙に違う！
