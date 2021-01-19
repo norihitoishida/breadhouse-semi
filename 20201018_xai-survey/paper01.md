@@ -60,7 +60,7 @@
 |---|---|
 |Interpretability (解釈可能性)||
 |Interpretation (解釈)|モデルの出力を人間が理解できるように簡略化した表現。|
-|Explanation (説明)|入力のfeatureの、出力に与える重要性や出力との関係性を表すメタ情報。<br>一般に、入力と同じshapeの**Explanation map**として表現される。<br>画像の場合はピクセルごと、テキストの場合は単語ごとにスコアを割り当てる。|
+|Explanation (説明)|入力のfeatureの、出力に与える重要性や出力との関係性を表すメタ情報。<br>一般に、入力と同じshapeの**Explanation map**として表現される。<br>例 : 画像のピクセルごと、テキストの単語ごとにスコアを割り当てる。|
 |White-box||
 |Black-box||
 |Transparent ()||
