@@ -53,7 +53,7 @@
     - [セクション8](#8-Conclusion) : まとめと結論。
 
 # 3 Definitions and Preliminaries
-- Explainability(説明可能性)・Interpretability(解釈可能性)等、用語の定義が文献によって微妙に違う！
+- Explainability(説明可能性)やInterpretability(解釈可能性)等、用語の定義が文献によって微妙に違う！
 - そこで、本論文では以下のように定義します。
 
 |用語|定義|
