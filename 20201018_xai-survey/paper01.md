@@ -40,9 +40,9 @@
 
 |観点|解説|
 |---|---|
-|Scope<br>範囲|データインスタンスごとに説明マップを生成するか、モデル全体に対して説明マップを生成するか<br>- Local : データインスタンスごとに説明マップを生成する。<br>- Global : モデル全体に対して説明マップを生成する。|
-|Methodology<br>方法論||
-|Usage<br>||
+|Scope (範囲)|Local : データインスタンスごとに説明マップを生成する。<br>Global : モデル全体に対して説明マップを生成する。|
+|Methodology (方法論)|BackProb : 勾配を用いる。<br>Perturbation : 摂動を用いる。|
+|Usage (使用方法)|Intrinsic : モデルに依存する。<br>Post-Hoc : モデルに依存しない。学習済みモデルに適用可能。|
 
 
 # 3 Definitions and Preliminaries
