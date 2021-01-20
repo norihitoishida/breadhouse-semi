@@ -62,8 +62,8 @@
 |Interpretation (解釈)|モデルの出力を人間が理解できるように簡略化した表現。|
 |Explanation (説明)|入力のfeatureの、出力に与える重要性や出力との関係性を表すメタ情報。<br>一般に、入力と同じshapeの**Explanation map**として表現される。<br>例 : 画像のピクセルごと、テキストの単語ごとにスコアを割り当てる。|
 |White-box|モデルの構造と重みが明らかなこと。<br>White-boxであっても必ずしも説明可能とは限らないので注意。|
-|Black-box||
-|Transparent ()||
+|Black-box|モデルの構造と重みが明らかでないこと。|
+|Transparent (透明)|モデルの表現力が十分にあり、人間が理解できること。|
 |Trustability ()||
 |Bias ()||
 |Fairness ()||
