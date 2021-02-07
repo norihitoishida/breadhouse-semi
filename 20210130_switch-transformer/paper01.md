@@ -78,13 +78,40 @@
 
 ## 2.1 Simplifying Sparse Routing
 
+**2.1.1 Mixture of Expert Routing**
+
+
+**2.1.2 : Switch Routing: Rethinking Mixture-of-Experts**
+
+
 ## 2.2 Efficient Sparse Routing 
 
+
+**2.2.1 Distributed Switch Implementation**
+
+**2.2.2 A Differentiable Load Balancing Loss**
+
+
+
 ## 2.3 Putting It All Together: The Switch Transformer
+
+
+
+
+
 
 ## 2.4 Improved Training and Fine-Tuning Techniques
 
 
+
+
+
+**2.4.1 Selective precision with large sparse models**
+
+**2.4.2 Smaller parameter initialization for stability**
+
+
+**2.4.3 Regularizing large sparse models**
 
 # 3 Scaling Properties
 # 4 Downstream Results
