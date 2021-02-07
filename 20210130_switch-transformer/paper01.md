@@ -16,14 +16,14 @@
 - [ABSTRACT](#ABSTRACT)
 - [1 Introduction](#1-Introduction)
 - [2 Switch Transformer](#2-Switch-Transformer)
-    - 2.1 Simplifying Sparse Routing
+    - [2.1 Simplifying Sparse Routing](##2.1-Simplifying-Sparse-Routing)
         - 2.1.1 Mixture of Expert Routing
         - 2.1.2 Switch Routing: Rethinking Mixture-of-Experts
-    - 2.2 Efficient Sparse Routing 
+    - [2.2 Efficient Sparse Routing ](##2.2-Efficient-Sparse-Routing)
         - 2.2.1 Distributed Switch Implementation
         - 2.2.2 A Differentiable Load Balancing Loss
-    - 2.3 Putting It All Together: The Switch Transformer 
-    - 2.4 Improved Training and Fine-Tuning Techniques 
+    - [2.3 Putting It All Together: The Switch Transformer](##2.3-Putting-It-All-Together:-The-Switch-Transformer)
+    - [2.4 Improved Training and Fine-Tuning Techniques](##2.4-Improved-Training-and-Fine-Tuning-Techniques)
         - 2.4.1 Selective precision with large sparse models
         - 2.4.2 Smaller parameter initialization for stability
         - 2.4.3 Regularizing large sparse models
@@ -62,17 +62,47 @@
 - 本論文では`Switch Transformer`という枠組みを提案しこれらに対処した。
 - `T5-Base`, `T5-Large`をベースにしたアーキテクチャで、pre-trainingが7倍速くなった。
 - 多言語モデルでも上手くいった。
-- `C4`データセットを使って
+- `C4`データセットを使って`T5-XXL`が4倍速くなった。(どういう意味？)
 
 # 1 Introduction
+
+**背景**
+
+
+
+**貢献**
+
+
+
 # 2 Switch Transformer
+
+## 2.1 Simplifying Sparse Routing
+
+## 2.2 Efficient Sparse Routing 
+
+## 2.3 Putting It All Together: The Switch Transformer
+
+## 2.4 Improved Training and Fine-Tuning Techniques
+
+
+
 # 3 Scaling Properties
 # 4 Downstream Results
 # 5 Designing Models with Data, Model, and Expert-Parallelism
 # 6 Related Work
+
+
 # 7 Discussion
+
+
+
 # 8 Future Work
+- 
+
+
 # 9 Conclusion
+- 
+
 # Appendix
 
 
