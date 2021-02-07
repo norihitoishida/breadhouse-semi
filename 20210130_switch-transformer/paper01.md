@@ -55,8 +55,11 @@
     - F Pseudo Code for Switch Transformers 
 
 # ABSTRACT
-- 
-- 
+- 通常のdeep learningではモデルの全てのパラメータが使われる。
+- 一方、Mixture of Experts (MoE)モデルは入力ごとに異なる部分のパラメータが使われる。
+- MoEは推論時の計算コストを抑えられるメリットがある。
+- しかし`複雑さ`・`通信コスト`・`学習の不安定さ`等の課題があった。
+- 本論文では`Switch Transformer`という枠組みを提案しこれらに対処した。
 
 
 # 1 Introduction
