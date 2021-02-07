@@ -8,7 +8,7 @@
 |所属|Google Brain|
 |リンク|[arXiv:2101.03961 [cs.LG]](https://arxiv.org/abs/2101.03961)|
 |概要|TransformerのMixture of Expertsモデル|
-|備考||
+|備考|[サンプルコード](https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py)|
 
 ***
 
@@ -60,7 +60,9 @@
 - MoEは推論時の計算コストを抑えられるメリットがある。
 - しかし`複雑さ`・`通信コスト`・`学習の不安定さ`等の課題があった。
 - 本論文では`Switch Transformer`という枠組みを提案しこれらに対処した。
-- T5をベースに、
+- `T5-Base`, `T5-Large`をベースにしたアーキテクチャで、pre-trainingが7倍速くなった。
+- 多言語モデルでも上手くいった。
+- `C4`データセットを使って
 
 # 1 Introduction
 # 2 Switch Transformer
