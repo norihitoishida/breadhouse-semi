@@ -172,6 +172,7 @@
     - expertsが2, 4, 8個でも(同じFLOPのモデルと比較して)性能は向上します。
     - 1コア1expertをオススメします。
 
+
 - E: Relation of Upstream to Downstream Model Performance 
 
 
