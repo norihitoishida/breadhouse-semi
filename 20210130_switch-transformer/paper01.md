@@ -154,24 +154,28 @@
 
 # Appendix
 
-- A Switch for Attention
-
-
-
-- B Preventing Token Dropping with No-Token-Left-Behind
-
-
-
-- C Encouraging Exploration Across Experts
-
-
-
-- D Switch Transformers in Lower Compute Regimes
-
-- E Relation of Upstream to Downstream Model Performance 
+- A: Switch for Attention
 
 
 
 
-- F Pseudo Code for Switch Transformers 
+- B: Preventing Token Dropping with No-Token-Left-Behind
+
+
+
+- C: Encouraging Exploration Across Experts
+
+
+
+- D: Switch Transformers in Lower Compute Regimes
+    - Switch Transformersはスケールが小さい場合も有効に機能します。
+    - expertsが2, 4, 8個でも(同じFLOPのモデルと比較して)性能は向上します。
+    - 1コア1expertをオススメします。
+
+- E: Relation of Upstream to Downstream Model Performance 
+
+
+
+
+- F: Pseudo Code for Switch Transformers 
     - 割愛。元論文にTensorflow2のコード有り。
