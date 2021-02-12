@@ -168,11 +168,11 @@
 
 - D: Switch Transformers in Lower Compute Regimes
     - Switch Transformersはスケールが小さい場合も有効に機能します。
-    - expertsが2, 4, 8個でも(同じFLOPのモデルと比較して)性能は向上します。
-    - 1コア1expertをオススメします。
+    - Expertsが2, 4, 8個でも(同じFLOPのモデルと比較して)性能は向上します。
+    - 1コアあたり1expertをオススメします。
 
 
-- E: Relation of Upstream to Downstream Model Performance 
+- E: Relation of Upstream to Downstream Model Performance
 
 
 - F: Pseudo Code for Switch Transformers
