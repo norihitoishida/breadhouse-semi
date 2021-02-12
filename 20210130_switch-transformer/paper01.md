@@ -169,5 +169,8 @@
 
 - E Relation of Upstream to Downstream Model Performance 
 
-- F Pseudo Code for Switch Transformers 
 
+
+
+- F Pseudo Code for Switch Transformers 
+    - 割愛。元論文にTensorflow2のコード有り。
