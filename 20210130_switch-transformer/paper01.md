@@ -154,4 +154,20 @@
 
 # Appendix
 
+- A Switch for Attention
+
+
+- B Preventing Token Dropping with No-Token-Left-Behind
+
+
+
+- C Encouraging Exploration Across Experts
+
+
+
+- D Switch Transformers in Lower Compute Regimes
+
+- E Relation of Upstream to Downstream Model Performance 
+
+- F Pseudo Code for Switch Transformers 
 
