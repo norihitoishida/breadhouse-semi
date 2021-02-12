@@ -166,7 +166,6 @@
 - C: Encouraging Exploration Across Experts
 
 
-
 - D: Switch Transformers in Lower Compute Regimes
     - Switch Transformersはスケールが小さい場合も有効に機能します。
     - expertsが2, 4, 8個でも(同じFLOPのモデルと比較して)性能は向上します。
@@ -176,5 +175,5 @@
 - E: Relation of Upstream to Downstream Model Performance 
 
 
-- F: Pseudo Code for Switch Transformers 
+- F: Pseudo Code for Switch Transformers
     - 割愛。元論文にTensorflow2のコード有り。
