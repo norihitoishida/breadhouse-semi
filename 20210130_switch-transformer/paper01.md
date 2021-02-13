@@ -77,6 +77,11 @@
 # 2 Switch Transformer
 
 ## 2.1 Simplifying Sparse Routing
+- Kaplanは言語モデルのロスは以下の3点の冪乗則にスケールされる事を示した。
+    - モデルサイズ
+    - データセットサイズ
+    - 学習時の計算量
+- 
 
 **2.1.1 Mixture of Expert Routing**
 
