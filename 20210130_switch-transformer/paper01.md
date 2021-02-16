@@ -185,4 +185,4 @@
 
 
 - F: Pseudo Code for Switch Transformers
-    - 割愛。元論文にTensorflow2のコード有り。
+    - 割愛。元論文にTensorflow2系のコード有り。
