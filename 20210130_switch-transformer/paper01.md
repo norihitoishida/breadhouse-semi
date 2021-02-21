@@ -90,7 +90,10 @@
 
 **2.1.1 Mixture of Expert Routing**
 - MoEはShazeer et al. (2017)でNLPに導入された。
-- 入力N個のエキスパート
+- N個のエキスパートを用意する。
+- ルーターは入力に対してSoftmaxを用い、それぞれのエキスパートに対する`gate-value`を決定する。
+- `gate-value`が大きい上位k個のエキスパートにルーティングし、結果の加重平均を取る。
+- 加重平均の重みに`gate-value`を用いる。
 
 
 
