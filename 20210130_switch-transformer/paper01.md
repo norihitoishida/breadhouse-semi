@@ -15,15 +15,15 @@
 # 目次
 - [ABSTRACT](#ABSTRACT)
 - [1 Introduction](#1-Introduction)
-- [2 Switch Transformer](#2-Switch-Transformer)
+- [2 Switch Transformer](#2-Switch-Transformer)(Switch Transformerの説明)
     - [2.1 Simplifying Sparse Routing](##2.1-Simplifying-Sparse-Routing)(ルーティングを簡素化する)
         - 2.1.1 Mixture of Expert Routing
         - 2.1.2 Switch Routing: Rethinking Mixture-of-Experts
-    - [2.2 Efficient Sparse Routing ](##2.2-Efficient-Sparse-Routing)
+    - [2.2 Efficient Sparse Routing](##2.2-Efficient-Sparse-Routing)(ルーティングを効率化する)
         - 2.2.1 Distributed Switch Implementation
         - 2.2.2 A Differentiable Load Balancing Loss
-    - [2.3 Putting It All Together: The Switch Transformer](##2.3-Putting-It-All-Together:-The-Switch-Transformer)
-    - [2.4 Improved Training and Fine-Tuning Techniques](##2.4-Improved-Training-and-Fine-Tuning-Techniques)
+    - [2.3 Putting It All Together: The Switch Transformer](##2.3-Putting-It-All-Together:-The-Switch-Transformer)(簡素化と効率化を両立)
+    - [2.4 Improved Training and Fine-Tuning Techniques](##2.4-Improved-Training-and-Fine-Tuning-Techniques)(学習安定化等のテクニック)
         - 2.4.1 Selective precision with large sparse models
         - 2.4.2 Smaller parameter initialization for stability
         - 2.4.3 Regularizing large sparse models
