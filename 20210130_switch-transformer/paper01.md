@@ -89,6 +89,9 @@
 
 
 **2.1.1 Mixture of Expert Routing**
+- MoEはShazeer et al. (2017)でNLPに導入された。
+- 入力N個のエキスパート
+
 
 
 **2.1.2 : Switch Routing: Rethinking Mixture-of-Experts**
