@@ -16,7 +16,7 @@
 - [ABSTRACT](#ABSTRACT)
 - [1 Introduction](#1-Introduction)
 - [2 Switch Transformer](#2-Switch-Transformer)
-    - [2.1 Simplifying Sparse Routing](##2.1-Simplifying-Sparse-Routing)
+    - [2.1 Simplifying Sparse Routing](##2.1-Simplifying-Sparse-Routing)(ルーティングを簡素化する)
         - 2.1.1 Mixture of Expert Routing
         - 2.1.2 Switch Routing: Rethinking Mixture-of-Experts
     - [2.2 Efficient Sparse Routing ](##2.2-Efficient-Sparse-Routing)
