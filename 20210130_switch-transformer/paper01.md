@@ -89,16 +89,20 @@
 
 
 **2.1.1 Mixture of Expert Routing**
-- MoEはShazeer et al. (2017)でNLPに導入された。
+- MoE層はShazeer et al. (2017)でNLPに導入された。概要は以下の通り。
 - N個のエキスパートを用意する。
 - ルーターは入力に対してSoftmaxを用い、それぞれのエキスパートに対する`gate-value`を決定する。
 - `gate-value`が大きい上位k個のエキスパートにルーティングし、結果の加重平均を取る。
 - 加重平均の重みに`gate-value`を用いる。
 
-
-
 **2.1.2 : Switch Routing: Rethinking Mixture-of-Experts**
-
+- Shazeerは"k>=2ではないと機能しないのでは?"と推測した。
+- これに対し、k=1(1個のエキスパートにルーティングする)戦略を用いる。
+- これをSwitch層と呼ぶ。このメリットは以下の通り。
+    - ルータでの計算削減
+    - エキスパートに割り当てられるバッチサイズ削減
+    - ルータの実装簡易化・通信コスト削減
+- a
 
 ## 2.2 Efficient Sparse Routing 
 
