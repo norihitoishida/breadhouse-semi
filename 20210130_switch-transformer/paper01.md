@@ -109,15 +109,16 @@
 
 ## 2.2 Efficient Sparse Routing 
 
-
 **2.2.1 Distributed Switch Implementation**
 
-**2.2.2 A Differentiable Load Balancing Loss**
 
+**2.2.2 A Differentiable Load Balancing Loss**
+- Expert間のバランスのためにLoad Balancing Lossという補助損失を追加する。
+- 各スイッチ層でモデルの損失に追加され、一緒にトレーニングされる。
 
 
 ## 2.3 Putting It All Together: The Switch Transformer
-
+- pre-training : C4コーパスのMLM(15%マスク)
 
 
 
