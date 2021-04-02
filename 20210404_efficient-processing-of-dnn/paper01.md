@@ -49,6 +49,15 @@
 # 1 INTRODUCTION
 
 # 2 BACKGROUND ON DEEP NEURAL NETWORKS
+- 本セクションではAIの文脈におけるDNNの位置づけ、開発の動機、歴史等を説明します。
+- A. Artificial Intelligence and DNNs
+    - DNNはAIの1分野で、脳の活動を模倣して考案されたモデルです。
+    - 脳の活動を元に考えられた他にモデルとして`spiking computing`等があります。
+- B. Neural Networks and Deep Neural Networks (DNNs)
+- C. Inference versus Training
+- D. Development History
+- E. Applications of DNN
+- F. Embedded versus Cloud
 
 # 3 OVERVIEW OF DNNS
 
@@ -59,3 +68,4 @@
 # 7 CO-DESIGN OF DNN MODELS AND HARDWARE
 # 8 BENCHMARKING METRICS FOR DNN EVALUATION AND COMPARISON
 # 9 SUMMARY
+- DNNは様々な分野で成果を出してるけど計算量も大きいので
