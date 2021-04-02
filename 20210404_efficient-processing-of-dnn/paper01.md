@@ -121,7 +121,7 @@
 |Model|Image|Layer|Filter|Channel|Pooling|Stride|Act|Weight|MACs|Others|
 |---  |---  |---  |---   |---    |---    |---   |---|---   |--- |---   |
 |LeNet(1989)|28x28x1|Conv2, FC2|5x5:6,16|1|mean:2x2|-|sigmoid|60k|341k||
-|AlexNet(2012)|227×227x3|Conv5, FC3|3x3~11x11:96~384|3~256|max:3x3|4|ReLU|61M|724M|GPU, LRN|
+|AlexNet(2012)|227×227x3|Conv5, FC3|3x3-11x11:96-384|3-256|max:3x3|4|ReLU|61M|724M|GPU, LRN|
 |Overfeat|
 |VGG-16|||
 |GoogLeNet|||
