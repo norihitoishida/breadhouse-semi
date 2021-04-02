@@ -137,40 +137,26 @@
     - MACs:724M
     - Note:GPU, LRN, Parallel
 - Overfeat(2013)
-    - Input:28x28x1
-    - Layer:Conv2, FC2
+    - Input:231×231x3
+    - Layer:Conv5, FC3
     - Filter:5x5, 6,16
-    - Pooling:mean, 2x2
-    - Act:sigmoid
-    - Weight:60k
-    - MACs:341k
-    |231×231x3|Conv5<br>FC3|||||146M|2.8G||
+    - Weight:146M
+    - MACs:2.8G
 - VGG-16(2014)
     - Input:224×224x3
     - Layer:Conv13, FC3
     - Filter:3x3
     - Pooling:mean, 2x2
-    - Act:sigmoid
     - Weight:138M
     - MACs:15.5G
 - GoogLeNet(2014)
-    - Input:28x28x1
-    - Layer:Conv2, FC2
     - Filter:1x1 \~ 5x5, 
-    - Pooling:
-    - Act:sigmoid
-    - Weight:60k
-    - MACs:341k
-    |224×224x3|Conv13<br>FC3|3x3||||138M|15.5G||
-||||並列接続, v1\~4, BN|
+    - Pooling:max, 3x3
+    - Note:BN, Parallel
 - ResNet(2015)
-    - Input:28x28x1
-    - Layer:Conv2, FC2
-    - Filter:
-    - Pooling:mean, 2x2
-    - Act:sigmoid
-    - Weight:60k
-    - MACs:341k
+    - Weight:60M(ResNet-152)
+    - MACs:11.3G(ResNet-152)
+    - Note:Skip Connect
 
 # 4 DNN DEVELOPMENT RESOURCES
 
