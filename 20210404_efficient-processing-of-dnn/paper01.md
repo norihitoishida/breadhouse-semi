@@ -47,6 +47,9 @@
 
 
 # 1 INTRODUCTION
+- DNNは様々なタスクで優れた結果を残していますが、計算が複雑です。
+- 現在、主にGPUを用いて処理が行われています。
+- 本論文では、DNN、DNN用ハードウェアアーキテクチャ、効率化の手法等を紹介します。
 
 # 2 BACKGROUND ON DEEP NEURAL NETWORKS
 - 本セクションではAIの文脈におけるDNNの位置づけ、開発の動機、歴史等を説明します。
@@ -97,6 +100,31 @@
     - エッジ機器にはエネルギー消費/計算量/メモリ量の制限があります。
  
 # 3 OVERVIEW OF DNNS
+- 基礎的なFFN, 内部メモリを持つRNN, 畳み込み処理を行うCNN等があります。
+- Dropout:接続を切ることで計算量を減らす手法。
+- Weight sharing:層間で重みを共有しメモリ量を減らす手法。
+- A. Convolutional Neural Networks (CNNs)
+    - 本論文では画像分類に焦点を当てます。
+    - 画像処理で一般的なDNNはCNNです。CNNは深いレイヤを持ちます。
+    - 高次元の畳み込みを行い、抽象化された情報を保持するfeature mapを生成します。
+    - 活性化にはシンプルで高速なReLU(及びその亜種)が用いられることが多いです。
+    - 音声認識タスクではmaxoutが効果的です。
+    - プーリングを行う事で移動や歪みに対して安定します。
+    - Batch Normalization(BN)はレイヤ間の入力分布を正規化する事で高速化・安定化を図ります。
+    - BNの多くはConv層とFC層の間で行われます。
+    - BN以前の安定化手法としてlocal response normalization(LRN)がありますが、現在はあまり使われていません。
+- B. Popular DNN Models
+    - 著名なDNNモデルを紹介します。
+
+|Model|Year|Description|
+|---|---|---|
+|LeNet|||
+|AlexNet|||
+|Overfeat|||
+|VGG-16|||
+|GoogLeNet|||
+|ResNet|||
+
 
 # 4 DNN DEVELOPMENT RESOURCES
 
