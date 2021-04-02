@@ -117,15 +117,16 @@
     - 著名なDNNモデルを紹介します。
     - それぞれのレイヤ数/タイプ/形状(フィルタやチャネル情報)/接続を理解することで、ハードウェアレベルの効率化の為に重要です。
 
-|Model|Year|Input Image|レイヤ|フィルタ形状|フィルタ数|チャネル数(フィルタ毎)|プーリング|ストライド|活性化関数|Weight|MACs(積和演算数)|他|
+|Model|Image|レイヤ|フィルタ形状|フィルタ数|チャネル数(フィルタ毎)|プーリング|ストライド|活性化関数|Weight|MACs|他|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-|LeNet|1989|28x28x1|Conv2, FC2|5x5|6, 16|1|mean, 2x2|無し|sigmoid|60k|341k||
-|AlexNet|2012|227×227x3|Conv5, FC3|3x3 ~ 11x11|96 ~ 384|3 ~ 256|max, 3x3|4|ReLU|61M|724M|GPU, LRN, |
+|LeNet(1989)|28x28x1|Conv2, FC2|5x5|6, 16|1|mean, 2x2|無し|sigmoid|60k|341k||
+|AlexNet(2012)|227×227x3|Conv5, FC3|3x3 ~ 11x11|96 ~ 384|3 ~ 256|max, 3x3|4|ReLU|61M|724M|GPU, LRN, |
 |Overfeat|
 |VGG-16|||
 |GoogLeNet|||
 |ResNet|||
 
+- MACs = 積和演算数
 
 # 4 DNN DEVELOPMENT RESOURCES
 
