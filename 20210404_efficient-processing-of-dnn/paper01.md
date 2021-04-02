@@ -118,14 +118,14 @@
     - それぞれのレイヤ数/タイプ/形状(フィルタやチャネル情報)/接続を理解することで、ハードウェアレベルの効率化の為に重要です。
     - MACs = 積和演算数
 
-|Model|Image|Layer|Filter|Channel|Pooling|Stride|Act|Weight|MACs|Others|
-|---|---|---|---|---|---|---|---|---|---|---|
-|LeNet<br>(1989)|28x28x1|Conv2<br>FC2|5x5<br>6,16|1|mean<br>2x2|-|sigmoid|60k|341k||
-|AlexNet<br>(2012)|227×227x3|Conv5<br>FC3|3x3-11x11<br>96-384|3-256|max<br>3x3|4|ReLU|61M|724M|GPU, LRN|
-|Overfeat|
-|VGG-16|||
-|GoogLeNet|||
-|ResNet|||
+|Model|Image|Layer|Filter|Channel|Pooling|Act|Weight|MACs|Others|
+|---|---|---|---|---|---|---|---|---|---|
+|LeNet<br>(1989)|28x28x1|Conv2<br>FC2|5x5<br>6,16|mean<br>2x2|-|sigmoid|60k|341k||
+|AlexNet<br>(2012)|227×227x3|Conv5<br>FC3|3x3-11x11<br>96-384|3-256|max<br>3x3|ReLU|61M|724M|GPU, LRN|
+|Overfeat<br>(2013)|231×231x3|Conv5<br>FC3|||||146M|2.8G||
+|VGG-16<br>(2014)|224×224x3|Conv13<br>FC3|||||138M|15.5G||
+|GoogLeNet<br>(2014)|||
+|ResNet<br>(2015)|||
 
 
 # 4 DNN DEVELOPMENT RESOURCES
