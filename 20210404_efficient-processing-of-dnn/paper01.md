@@ -52,9 +52,22 @@
 - 本セクションではAIの文脈におけるDNNの位置づけ、開発の動機、歴史等を説明します。
 - A. Artificial Intelligence and DNNs
     - DNNはAIの1分野で、脳の活動を模倣して考案されたモデルです。
-    - 脳の活動を元に考えられた他にモデルとして`spiking computing`等があります。
+    - 脳の活動を元に考えられた他にモデルとしてSpiking computing等があります。
 - B. Neural Networks and Deep Neural Networks (DNNs)
+    - DNNは線型結合と活性化による非線形変換を多重に行います。
+    - 中間層の数は1000を超える場合があります。
+    - 浅いNNに比べて、複雑で抽象的な特徴量を学習できます。
+    - 例えば画像をDNNに入力すると、線やエッジ等の特徴量を認識し解釈できます。
+    - この様な特徴から、様々な分野で優れた成績を残しています。
 - C. Inference versus Training
+    - DNNは学習フェーズと推論フェーズがあります。
+    - 学習では、ロスを最小化するように重みが勾配法で更新されます。
+    - Backpropagationを用いる事で効率的に勾配を計算できます。
+    - メモリを保持する大量のストレージ領域が必要です。
+    - また、Backpropagation時は高い精度が必要です。
+    - よって、(後のセクションで紹介する)精度を下げて計算量を抑える手法は推論時に使います。
+    - 学習の効率化と安定性向上の為に様々な手法が用いられます。(Batch Normalization, Fine tuning等)
+    - この論文では学習時ではなく推論時の効率化に焦点を当てます。
 - D. Development History
 - E. Applications of DNN
 - F. Embedded versus Cloud
