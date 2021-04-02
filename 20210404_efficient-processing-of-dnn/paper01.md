@@ -119,7 +119,7 @@
     - MACs = 積和演算数
 
 |Model|Image|Layer|Filter|Channel|Pooling|Stride|Act|Weight|MACs|Others|
-|---  |---  |---  |---   |---    |---    |---   |---|---   |--- |---   |
+|---|---|---|---|---|---|---|---|---|---|---|
 |LeNet<br>(1989)|28x28x1|Conv2<br>FC2|5x5<br>6,16|1|mean<br>2x2|-|sigmoid|60k|341k||
 |AlexNet<br>(2012)|227×227x3|Conv5<br>FC3|3x3-11x11<br>96-384|3-256|max<br>3x3|4|ReLU|61M|724M|GPU, LRN|
 |Overfeat|
