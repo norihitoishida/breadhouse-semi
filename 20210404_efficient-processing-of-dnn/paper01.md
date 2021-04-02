@@ -118,15 +118,59 @@
     - それぞれのレイヤ数/タイプ/形状(フィルタやチャネル情報)/接続を理解することで、ハードウェアレベルの効率化の為に重要です。
     - MACs = 積和演算数
 
-|Model|Image|Layer|Filter|Channel|Pooling|Act|Weight|MACs|Others|
-|---|---|---|---|---|---|---|---|---|---|
-|LeNet<br>(1989)|28x28x1|Conv2<br>FC2|5x5<br>6,16|mean<br>2x2|-|sigmoid|60k|341k||
-|AlexNet<br>(2012)|227×227x3|Conv5<br>FC3|3x3-11x11<br>96-384|3-256|max<br>3x3|ReLU|61M|724M|GPU, LRN|
-|Overfeat<br>(2013)|231×231x3|Conv5<br>FC3|||||146M|2.8G||
-|VGG-16<br>(2014)|224×224x3|Conv13<br>FC3|||||138M|15.5G||
-|GoogLeNet<br>(2014)|||
-|ResNet<br>(2015)|||
-
+- LeNet(1989)
+    - Input:28x28x1
+    - Layer:Conv2, FC2
+    - Filter:5x5, 6,16
+    - Pooling:mean, 2x2
+    - Act:sigmoid
+    - Weight:60k
+    - MACs:341k
+- AlexNet(2012)
+    - Input:28x28x1
+    - Layer:Conv5, FC3
+    - Filter:3×3\~11×11, 96\~384
+    - Channel:3\~256
+    - Pooling:max, 3x3
+    - Act:ReLU
+    - Weight:61M
+    - MACs:724M
+    - Note:GPU, LRN, Parallel
+- Overfeat(2013)
+    - Input:28x28x1
+    - Layer:Conv2, FC2
+    - Filter:5x5, 6,16
+    - Pooling:mean, 2x2
+    - Act:sigmoid
+    - Weight:60k
+    - MACs:341k
+    |231×231x3|Conv5<br>FC3|||||146M|2.8G||
+- VGG-16(2014)
+    - Input:224×224x3
+    - Layer:Conv13, FC3
+    - Filter:3x3
+    - Pooling:mean, 2x2
+    - Act:sigmoid
+    - Weight:138M
+    - MACs:15.5G
+- GoogLeNet(2014)
+    - Input:28x28x1
+    - Layer:Conv2, FC2
+    - Filter:1x1 \~ 5x5, 
+    - Pooling:
+    - Act:sigmoid
+    - Weight:60k
+    - MACs:341k
+    |224×224x3|Conv13<br>FC3|3x3||||138M|15.5G||
+||||並列接続, v1\~4, BN|
+- ResNet(2015)
+    - Input:28x28x1
+    - Layer:Conv2, FC2
+    - Filter:
+    - Pooling:mean, 2x2
+    - Act:sigmoid
+    - Weight:60k
+    - MACs:341k
 
 # 4 DNN DEVELOPMENT RESOURCES
 
