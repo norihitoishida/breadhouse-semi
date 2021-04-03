@@ -187,7 +187,7 @@
         - ALUは個別のコントロールを持ち、相互に通信してデータフローを形成する
         - ASIC, FPGA
         - メモリを再利用することで省エネ化
-
+![Parallel paradigms](./img/p1-fig17-alus.png)
 - A. Accelerate Kernel Computation on CPU and GPU Platforms
 - B. Energy-Efficient Dataflow for Accelerators
 # 6 NEAR-DATA PROCESSING
