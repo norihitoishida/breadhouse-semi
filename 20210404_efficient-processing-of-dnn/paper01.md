@@ -182,13 +182,17 @@
         - ALUは相互に通信しない
         - SIMD, SIMT : 単一命令でマルチデータ/マルチスレッド処理
         - CPU, GPU
-        - カーネルで計算の変換を行い乗算回数を減らす事で高速化
+        - 変換を行い乗算回数を減らす事で高速化
     - Spatial architectures
         - ALUは個別のコントロールを持ち、相互に通信してデータフローを形成する
         - ASIC, FPGA
         - メモリを再利用することで省エネ化
 ![Parallel paradigms](./img/p1-fig17-alus.png)
 - A. Accelerate Kernel Computation on CPU and GPU Platforms
+    - ConvもFCも行列演算に帰着できます。ConvはToeplitz行列の形に変換する事で行列演算に変換できますが、Toeplitz行列は冗長なため、ストレージが非効率になるかメモリアクセスパターンが複雑になります。
+    - 行列演算用のソフトウェアが公開されています。
+        - CPU:OpenBLAS, Intel MKL
+        - GPU:cuBRAS, cuDNN
 - B. Energy-Efficient Dataflow for Accelerators
 # 6 NEAR-DATA PROCESSING
 - A. DRAM
