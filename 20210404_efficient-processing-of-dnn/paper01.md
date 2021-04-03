@@ -158,6 +158,7 @@
             - Note:Skip Connect
 
 # 4 DNN DEVELOPMENT RESOURCES
+- DNNの高速な開発を支える、豊富な開発リソースを紹介します。
 - A. Frameworks
 - B. Models
 - C. Popular Datasets for Classification
