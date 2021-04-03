@@ -160,10 +160,34 @@
 # 4 DNN DEVELOPMENT RESOURCES
 - DNNの高速な開発を支える、豊富な開発リソースを紹介します。
 - A. Frameworks
+    - Caffe, Tensorflow, Torch, Theano, MXNet, CNTK
+    - Keras
+    - cuDNN
 - B. Models
+    - 様々なpre-trainedモデルが公開されている。
 - C. Popular Datasets for Classification
+    - MNIST:28x28x1, 10クラス, Train60k, Test10k
+    - CIFAR-10:32x32x3, 10クラス, Train50k, Test10k
+    - ImageNet:256×256x3, 1000クラス, Train1.3M, Test100k
 - D. Datasets for Other Tasks
+    - PASCAL VOC:CV(detection), 20クラス
+    - COCO:CV(detection/segmentation/recognition), 91カテゴリ
+    - Google Open Images:CV, 6000カテゴリ
+    - Youtube dataset:CV(video), 4800クラス
+    - Google AudioSet:Audio, 632イベント
 # 5 HARDWARE FOR DNN PROCESSING
+- モダンなハードウェアプラットフォームはDNN専用の処理を備えています。
+- DNNの処理は積和演算(MAC)なので並列化が容易です。2種類の並列化パラダイムを紹介します。
+    - Temporal architectures
+        - ALUは相互に通信しない
+        - SIMD, SIMT : 単一命令でマルチデータ/マルチスレッド処理
+        - CPU, GPU
+        - カーネルで計算の変換を行い乗算回数を減らす事で高速化
+    - Spatial architectures
+        - ALUは個別のコントロールを持ち、相互に通信してデータフローを形成する
+        - ASIC, FPGA
+        - メモリを再利用することで省エネ化
+
 - A. Accelerate Kernel Computation on CPU and GPU Platforms
 - B. Energy-Efficient Dataflow for Accelerators
 # 6 NEAR-DATA PROCESSING
