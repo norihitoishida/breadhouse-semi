@@ -158,10 +158,23 @@
             - Note:Skip Connect
 
 # 4 DNN DEVELOPMENT RESOURCES
-
+- A. Frameworks
+- B. Models
+- C. Popular Datasets for Classification
+- D. Datasets for Other Tasks
 # 5 HARDWARE FOR DNN PROCESSING
+- A. Accelerate Kernel Computation on CPU and GPU Platforms
+- B. Energy-Efficient Dataflow for Accelerators
 # 6 NEAR-DATA PROCESSING
+- A. DRAM
+- B. SRAM
+- C. Non-volatile Resistive Memories
+- D. Sensors
 # 7 CO-DESIGN OF DNN MODELS AND HARDWARE
+- A. Reduce Precision
+- B. Reduce Number of Operations and Model Size
 # 8 BENCHMARKING METRICS FOR DNN EVALUATION AND COMPARISON
+- A. Metrics for DNN Models
+- B. Metrics for DNN Hardware
 # 9 SUMMARY
 - DNNは様々な分野で成果を出してるけど計算量も大きいので
