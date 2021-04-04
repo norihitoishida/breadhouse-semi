@@ -193,6 +193,8 @@
     - 行列演算用のソフトウェアが公開されています。
         - CPU:OpenBLAS, Intel MKL
         - GPU:cuBRAS, cuDNN
+    - 行列演算は離散フーリエ変換のアダマール積で表現できます。
+    - FFTを用いることで計算量を大幅に削減できますが、必要なストレージ容量が大きくなる等のデメリットもあります。
 - B. Energy-Efficient Dataflow for Accelerators
 # 6 NEAR-DATA PROCESSING
 - A. DRAM
