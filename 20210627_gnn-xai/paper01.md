@@ -34,10 +34,7 @@
 - GNNはグラフデータを直接扱えるがブラックボックスモデル
 - 近年様々なDeep learningモデルに対するXAI研究が進んでいる
 - しかし、画像・テキスト・テーブル等のモデルのグリッド性を仮定するXAI手法はGNNに適用できない
-- 近年のGNN専用XAI手法は以下のものが有る
-    - GNN Explainer
-    - PG Explainer
-    - PGM Explainer
+- 近年のGNNのXAI手法はGNN Explainer, PG Explainer, PGM Explainerなどが有る
 - これらは単一のノードやエッジの重要性に焦点を当てている(サブグラフを考慮していない)
 - 今回の提案手法SubgraphXは、サブグラフの重要性を計算可能
 - GNNの処理はAggregate/Combinate/Readoutの3段階
@@ -89,15 +86,26 @@
 - 
 
 # 5 Conclusions
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- 既存のGNNのXAI手法はエッジやノードの重要性を説明するが、サブグラフの重要性を説明した方が人間にわかりやすい
+- SubgraphXという、サブグラフを使って説明する手法を提案した
+- サブグラフのShapley値を計算する
+- サブグラフはMCTSで探索し、aggregationの範囲内のみShapley値を計算する
+- 受容可能なTime complexityを保ちながらGNNの説明性を獲得できた
 
 # Appendix
-- Appendix.A 
-- Appendix.B 
-- Appendix.C 
+- Appendix.A : データセットとGNNモデル
+    - データセット
+        - MUTAG
+        - BBBP
+        - Graph-SST2
+        - BA-2Motifs
+        - BA-Shape
+    - GNNモデル
+        - GCN
+        - GIN
+        - GAT
+- Appendix.B : Graph Classification Model
+    - Fig.7 : BBBP, MUTAG
+    - Fig.8 : Graph-SST2
+- Appendix.C : Node Classification Model
+    - Fig.9 : BA-Shapeの説明を可視化
