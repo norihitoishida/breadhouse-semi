@@ -94,6 +94,7 @@
 - XAI : SubgraphX/MCTS GNN/GNNExplainer/PGExplainer
     - MCTS GNN : サブグラフを入力した時の出力をスコアリング関数にする(Shapley値を計算しない)
 - Figures
+    - Fig1 : SubgraphXの概要図
     - Fig2 : Graph-SST2 + GAT
     - Fig3 : BA-2Motifs + GCN, 上は正予測、下は誤予測
     - Fig4 : MUTAG + GIN, 2つの正しい予測の説明
