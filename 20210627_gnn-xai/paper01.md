@@ -46,7 +46,7 @@
 - 定性的/定量的実験を行い、安価なコストで説明性を得られる事を確認した
 
 # 2 Rekated Work
-- GNNの亜種 : GCN, GAT, GIN, 
+- GNNの亜種 : GCN, GAT, GIN
 - GNNのXAIの紹介
     - gradients/features-based(勾配/特徴)
         - SA, CAM, Guided BP
@@ -75,16 +75,33 @@
 - A2-1 : 現状、個々の入力サンプルに対する説明を直接提供できない(例:XGNNは入力に依存しない)
 - A2-2 : 現状、ノード/エッジの重要度しか計算できない(計算後に結合可能ならサブグラフを作れるが、必ずしも結合可能なことは保証されない)
 - A2-3 : 現状、入力に対するノード/エッジの説明は可能だが、ノード/エッジ相互の説明はできない
-- 
+- 式(1)は問題の定式化 : 「訓練済みモデルf」と「入力グラフG」と「Gのサブグラフ集合」をスコアリング関数に入力し、説明を生成する(全探索)
+- 全探索は効率的でないのでMCTSを用いる
+    - `visiting count`と`reward`を記録して検索空間を減らしていく
+    - プルーニングアクションにドメイン知識を組み込んで良い    
+- スコアリング関数にはShapley値を用いる
+    - `reward`はスコアリング関数設計に依存するので注意
+    - 「サブグラフを入力する」という方法では、異なる構造のグラフ間の比較がうまくできない
+    - 大域的なShapley値の計算コストが高いので、サブグラフ周辺のみを用いて近似計算する
+    - ノード毎の隣接ノード数は異なる為、ターゲットノード数を固定せずにMCサンプリングする
+- graph classification以外のタスクにも適用可能
+    - node classification, link prediction, ...
+- GNNをブラックボックスとみなしているので、GCN, GAT, GIN, Line-GNN等、様々なGNNモデルに適用可能
 
 # 4 Experimental Studies
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- データセット : MUTAG/BBBP/Graph-SST2/BA-2Motifs/BA-Shape
+- モデル : GCN/GAT/GIN
+- XAI : SubgraphX/MCTS GNN/GNNExplainer/PGExplainer
+    - MCTS GNN : サブグラフを入力した時の出力をスコアリング関数にする(Shapley値を計算しない)
+- Figures
+    - Fig2 : Graph-SST2 + GAT
+    - Fig3 : BA-2Motifs + GCN, 上は正予測、下は誤予測
+    - Fig4 : MUTAG + GIN, 2つの正しい予測の説明
+    - Fig5 : Fidelity-Sparsityカーブ
+    - Fig6 : BA-Shape + GCN
+- 定量的実験 : Fidelity-Sparsityカーブ(Figure 5)
+- 定性的実験 : 時間コスト比較(Table 2)
+- プルーニングアクション :  Low2high(高Fidelity)とHigh2low(低コスト)
 
 # 5 Conclusions
 - 既存のGNNのXAI手法はエッジやノードの重要性を説明するが、サブグラフの重要性を説明した方が人間にわかりやすい
