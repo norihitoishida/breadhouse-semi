@@ -18,8 +18,8 @@
 - [4 Experimental Studies](#4-Experimental-Studies)
 - [5 Conclusions](#5-Conclusions)
 - [Appendix](#Appendix)
-- [Shapley値について](#-Shapley値について)
-- [モンテカルロ木探索について](#-モンテカルロ木探索について)
+- [Shapley値について](#shapley値について)
+- [モンテカルロ木探索について](#モンテカルロ木探索について)
 
 # 0 Abstract
 - 基本的にGNNはブラックボックス
