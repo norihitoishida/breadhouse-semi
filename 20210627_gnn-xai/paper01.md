@@ -13,7 +13,7 @@
 # 目次
 - [0 Abstract](#0-Abstract)
 - [1 Introduction](#1-Introduction)
-- [2 Rekated Work](#2-Rekated-Work)
+- [2 Related Work](#2-Related-Work)
 - [3 The Proposed SubgraphX](#3-The-Proposed-SubgraphX)
 - [4 Experimental Studies](#4-Experimental-Studies)
 - [5 Conclusions](#5-Conclusions)
@@ -47,7 +47,7 @@
 - Aggregateする範囲内だけでShapley値を計算する(全体で計算しない)
 - 定性的/定量的実験を行い、安価なコストで説明性を得られる事を確認した
 
-# 2 Rekated Work
+# 2 Related Work
 - GNNの亜種 : GCN, GAT, GIN
 - GNNのXAIの紹介
     - gradients/features-based(勾配/特徴)
