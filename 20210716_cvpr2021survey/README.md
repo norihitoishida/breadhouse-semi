@@ -8,10 +8,11 @@
     - Shintaro Yamamoto : WU(D3), CVやNLP(論文解析)
     - Ryosuke Yamada : 運営(マネジメント・メンタリング担当)
     - Hirokatsu Kataoka : 運営(主催)
+- 読み終わったら下記spreadsheetの `ReadingList` のフォームに 概要説明/新規性/結果 等を記入する
 
 ### Link
-- [マニュアル](https://docs.google.com/presentation/d/1ntOxWxFyZow69ibtuZMx-omdpvI2Y-GilkcQveEoA6M/edit?usp=sharing)
-- [Reading List](https://docs.google.com/spreadsheets/d/1ZeR6bRU_HMSaHczQ6D1NW9Tls4oIjQmxXOmZjZWn5DA/edit?usp=sharing)
+- [マニュアル (presentation)](https://docs.google.com/presentation/d/1ntOxWxFyZow69ibtuZMx-omdpvI2Y-GilkcQveEoA6M/edit?usp=sharing)
+- [Reading List (spreadsheet)](https://docs.google.com/spreadsheets/d/1ZeR6bRU_HMSaHczQ6D1NW9Tls4oIjQmxXOmZjZWn5DA/edit?usp=sharing)
 - [CVPR2021 research areas (unofficial)](https://public.tableau.com/views/CVPR2021/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no)
 
 ### 読んだものリスト
