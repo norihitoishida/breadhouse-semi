@@ -16,7 +16,7 @@
 - [CVPR2021 research areas (unofficial)](https://public.tableau.com/views/CVPR2021/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link:showVizHome=no)
 
 ### 読んだものリスト
-- [(1) TAP: Text-Aware Pre-Training for Text-VQA and Text-Caption]
+- (1) TAP: Text-Aware Pre-Training for Text-VQA and Text-Caption
 
 ### TAP: Text-Aware Pre-Training for Text-VQA and Text-Caption
 |Topic|Description|
