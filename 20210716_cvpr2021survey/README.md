@@ -17,6 +17,7 @@
 
 ### 読んだものリスト
 - (1) TAP: Text-Aware Pre-Training for Text-VQA and Text-Caption
+- (2) ArtEmis: Affective Language for Visual Art
 
 ### TAP: Text-Aware Pre-Training for Text-VQA and Text-Caption
 |Topic|Description|
@@ -31,3 +32,16 @@
 |備考||
 
 ![TAP](./img/001_TAP.png)
+
+
+### ArtEmis: Affective Language for Visual Art
+|Topic|Description|
+|---|---|
+|タイトル|ArtEmis: Affective Language for Visual Art|
+|日付|2020/12/08|
+|著者|Panos Achlioptas, Maks Ovsjanikov, Kilichbek Haydarov, Mohamed Elhoseiny, Leonidas J. Guibas|
+|リンク|[CVPR 2021 open access](https://openaccess.thecvf.com/content/CVPR2021/html/Achlioptas_ArtEmis_Affective_Language_for_Visual_Art_CVPR_2021_paper.html), [	arXiv:2101.07396 [cs.CV]](https://arxiv.org/abs/2101.07396)|
+|概要||
+|新規性||
+|結果||
+|備考||
