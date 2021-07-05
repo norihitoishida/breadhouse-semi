@@ -43,7 +43,7 @@
 |リンク|[CVPR 2021 open access](https://openaccess.thecvf.com/content/CVPR2021/html/Achlioptas_ArtEmis_Affective_Language_for_Visual_Art_CVPR_2021_paper.html), [	arXiv:2101.07396 [cs.CV]](https://arxiv.org/abs/2101.07396)|
 |概要|アートワークに対する「感情的反応とその理由」のデータセットを提案し、それでトレーニング可能なニューラルスピーカーを設計した(モデルアーキテクチャはShow-Attend-Tell,およびMeshed-Memory Transformer)|
 |新規性|視覚刺激からの感情を表現および説明できるデータセット|
-|結果|感情推定, Neural Speakerタスク(BLEUスコア等)で高スコア /チューリングテストで良い結果(しかしhuman ground truthには全く及ばない事に注意)|
+|結果|感情推定, Neural Speakerタスク(BLEUスコア等)で高スコア / チューリングテストで良い結果(しかしhuman ground truthには全く及ばない事に注意)|
 |備考||
 
 ![ArtEmis](./img/002_ArtEmis.png)
