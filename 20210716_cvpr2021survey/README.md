@@ -25,5 +25,9 @@
 |日付|2020/12/08|
 |著者|Zhengyuan Yang, Yijuan Lu, Jianfeng Wang, Xi Yin, Dinei Florencio, Lijuan Wang, Cha Zhang, Lei Zhang, Jiebo Luo|
 |リンク|[CVPR 2021 open access](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_TAP_Text-Aware_Pre-Training_for_Text-VQA_and_Text-Caption_CVPR_2021_paper.html), [arXiv:2012.04638 [cs.CV]](https://arxiv.org/abs/2012.04638)|
-|概要||
+|概要|Text-VQA/Text-Captionのための画像/文章マルチモーダルpre-traning (TAP : Text-Aware Pre-Training) を提案|
+|新規性|"Text word embedding", "Visual object embedding", "Scene text embedding"を Multi-modal Transformer Layer に入力し、"Masked language modeling", "Relative position prediction", "Image-text matching"の pre-training を行う|
+|結果|既存手法より性能向上 (+8.3% accuracy on TextVQA, +8.6% accuracy on ST-VQA, +10.2 CIDEr score on TextCaps)|
 |備考||
+
+![TAP](./img/001_TAP.png)
