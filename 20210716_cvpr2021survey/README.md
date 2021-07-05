@@ -46,4 +46,4 @@
 |結果|感情推定, Neural Speakerタスク(BLEUスコア等)で高スコア /チューリングテストで良い結果(しかしhuman ground truthには全く及ばない事に注意)|
 |備考||
 
-![TAP](./img/002_ArtEmis.png)
+![ArtEmis](./img/002_ArtEmis.png)
